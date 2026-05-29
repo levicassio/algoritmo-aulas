@@ -1,0 +1,38 @@
+<script>
+    function mensagem() {
+        document.write("Olá mundo");
+    }
+    mensagem ();
+</script>
+
+<script>
+    function soma (a,b) {
+        return a + b;
+    }
+    resultado = soma ( 5, 3);
+    document.write(resultado);
+</script>
+
+<script>
+    numero = Number(window.prompt("Digit um numero: "));
+
+    function dobro (numero) {
+        return numero * 2;
+    }
+    resultado = dobro (numero);
+    document.write(resultado);
+</script>
+
+<script>
+    nota = Number(window.prompt("Digite nota: "));
+
+    function verificar (nota) {
+        if (nota >= 6 ) {
+            return "Aprovado";
+        } else {
+            return "Reprovado";
+        }
+    }  
+    resultado = verificar (nota);
+    document.write (resultado);
+</script>

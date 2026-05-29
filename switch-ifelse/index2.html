@@ -1,0 +1,90 @@
+<script>
+    
+    idade = parseInt(window.prompt("Qual sua idade: "));
+
+    if (idade >= 18 ) {
+        document.write("maior de idade");
+    }  else { 
+        document.write("menor de idade");
+    }
+
+
+</script>
+
+<script>
+
+    estado = window.prompt("Digite o estado:");
+    valor = Number(window.prompt("Digite o valor:"));
+
+    switch (estado) {
+
+        case "SP":
+            imposto = valor * 0.05;
+            break;
+
+        case "RJ":
+            imposto = valor * 0.06;
+            break;
+
+        case "MG":
+            imposto = valor * 0.07;
+            break;
+
+        default:
+            imposto = valor * 0.04;
+    }
+
+    document.write("Valor do imposto: " + imposto);
+
+</script>
+
+
+<script>
+    
+    nota = Number(window.prompt("Nota: "));
+
+    if ( nota >= 7 ) {
+        document.write("Aprovado");
+    } else if ( nota >= 5 ) {
+        document.write("Recuperação");
+    } else {
+        document.write("Reprovado");
+    }
+
+</script>
+
+<script>
+
+    estado = window.prompt("Qual estado: ");
+    valor = Number(window.prompt("Qual valor do imposto: "));
+
+    if ( estado == "SP" ) {
+        impostosp = valor * 0.05;
+        document.write("Valor do imposto é: " +impostosp );
+    } else if ( estado == "RJ" ) {
+        impostorj = valor * 0.06;
+        document.write("Valor do imposto é: " +impostorj );
+    } else if ( estado == "MG" ) {
+        impostomg = valor * 0.07;
+        document.write("Valor do imposto é: " +impostomg );
+    } else  {
+        imposto = valor * 0.04;
+        document.write("Valor do imposto é: " +imposto);
+    }
+
+</script>
+
+<script>
+
+    numero = Number(window.prompt("digite um numero: "));
+
+    if ( numero > 0 ) {
+        document.write("Positivo");
+    } else if ( numero == 0 ) {
+        document.write("Zero");
+    } else {
+        document.write("Negativo");
+    }
+
+
+</script>
